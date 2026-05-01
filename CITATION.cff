@@ -23,6 +23,9 @@ authors:
   - family-names: Chun
     given-names: Pang-jo
     orcid: ""
+  - family-names: Maharjan
+    given-names: Shreejan
+    orcid: ""
   - family-names: Navruzshoev
     given-names: Hofiz
     orcid: ""
@@ -38,6 +41,8 @@ preferred-citation:
       email: zavzalshoev@gmail.com
     - family-names: Chun
       given-names: Pang-jo
+    - family-names: Maharjan
+      given-names: Shreejan
     - family-names: Navruzshoev
       given-names: Hofiz
   journal: "Journal of Geophysical Research: Atmospheres"
