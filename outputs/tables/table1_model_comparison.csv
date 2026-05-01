@@ -1,0 +1,4 @@
+Model,CV $R^2$,RMSE,MAE,Bias,Spatial fold $R^2$ (mean $\pm$ $\sigma$),Area-wtd $R^2$,Area-wtd RMSE
+Ridge regression,0.078,0.3465,0.2549,-0.0126,--,--,--
+Random Forest,0.187,0.3254,0.2364,-0.0154,--,--,--
+XGBoost (primary),0.1684,0.3291,0.2399,-0.0182,0.123 $\pm$ 0.074,0.209,0.2780

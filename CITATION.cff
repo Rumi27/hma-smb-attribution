@@ -1,0 +1,80 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated paper."
+type: software
+title: "HMA Glacier Mass Balance Attribution: XGBoost-SHAP Framework"
+version: "1.1.0"
+date-released: "2026"
+license: CC-BY-4.0
+repository-code: "https://github.com/Rumi27/hma-smb-attribution"
+abstract: >
+  Code and derived data for XGBoost-SHAP attribution of High Mountain Asia
+  glacier surface mass balance drivers. Includes spatial cross-validation,
+  SHAP feature importance, sensitivity analyses, and CMIP6 projections
+  for ~94,000 glaciers across 15 sub-regions. Revised version adds Random
+  Forest SHAP and permutation importance comparison (Table S3), size-stratified
+  cross-validation statistics, and supplementary descriptive statistics.
+
+authors:
+  - family-names: Avzalshoev
+    given-names: Zafar
+    email: zavzalshoev@gmail.com
+    orcid: ""
+  - family-names: Chun
+    given-names: Pang-jo
+    orcid: ""
+  - family-names: Navruzshoev
+    given-names: Hofiz
+    orcid: ""
+
+preferred-citation:
+  type: article
+  title: >
+    Climate Controls on High Mountain Asia Glacier Mass Balance Using Machine
+    Learning: Attribution, Spatial Cross-Validation, and CMIP6 Projections
+  authors:
+    - family-names: Avzalshoev
+      given-names: Zafar
+      email: zavzalshoev@gmail.com
+    - family-names: Chun
+      given-names: Pang-jo
+    - family-names: Navruzshoev
+      given-names: Hofiz
+  journal: "Journal of Geophysical Research: Atmospheres"
+  year: 2026
+  status: submitted
+
+references:
+  - type: article
+    title: "Accelerated global glacier mass loss in the early twenty-first century"
+    authors:
+      - family-names: Hugonnet
+        given-names: Romain
+    journal: Nature
+    year: 2021
+    doi: 10.1038/s41586-021-03436-z
+
+  - type: article
+    title: "The ERA5 global reanalysis"
+    authors:
+      - family-names: Hersbach
+        given-names: Hans
+    journal: "Quarterly Journal of the Royal Meteorological Society"
+    year: 2020
+    doi: 10.1002/qj.3803
+
+  - type: dataset
+    title: "OGGM standard projections (v1.6.1)"
+    authors:
+      - family-names: Schuster
+        given-names: Lilian
+    year: 2023
+    doi: 10.5281/zenodo.8286065
+
+  - type: article
+    title: "Geodetic mass balance of glaciers in the central Karakoram between 2000 and 2010"
+    authors:
+      - family-names: Shean
+        given-names: David E.
+    journal: "Frontiers in Earth Science"
+    year: 2020
+    doi: 10.3389/feart.2020.00188

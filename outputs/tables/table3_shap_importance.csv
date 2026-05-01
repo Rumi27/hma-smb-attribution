@@ -1,0 +1,16 @@
+Rank,Feature,Mean |SHAP|
+1,"JJA temperature variability ($\sigma$, $^{\circ}$C)",0.0703
+2,JJA precipitation (mm month$^{-1}$),0.04595
+3,Glacier slope ($^{\circ}$),0.02766
+4,Mean glacier elevation (m a.s.l.),0.0266
+5,Winter precipitation fraction,0.0208
+6,"Continentality ($T_{\rm JJA} - T_{\rm DJF}$, $^{\circ}$C)",0.02075
+7,SON precipitation (mm month$^{-1}$),0.02017
+8,MAM temperature ($^{\circ}$C),0.01503
+9,Elevation range (m),0.01351
+10,Glacier area (km$^2$),0.01264
+11,"JJA temperature, lapse-corrected ($^{\circ}$C)",0.01261
+12,JJA maximum temperature ($^{\circ}$C),0.01218
+13,"Precipitation variability ($\sigma$, mm month$^{-1}$)",0.01159
+14,"Annual mean temperature, lapse-corrected ($^{\circ}$C)",0.0114
+15,JJA temperature trend ($^{\circ}$C decade$^{-1}$),0.01128

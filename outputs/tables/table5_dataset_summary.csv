@@ -1,0 +1,5 @@
+Region,n glaciers,Total area (km$^2$),Mean SMB,$\sigma$ SMB,Min SMB,Max SMB
+RGI-13 Central Asia,53906,49124.0,-0.179,0.363,-4.278,2.727
+RGI-14 South Asia West,27803,33543.0,-0.092,0.292,-3.519,3.175
+RGI-15 South Asia East,12754,14459.0,-0.4,0.395,-2.717,3.09
+All HMA,94463,97126.0,-0.183,0.361,-4.278,3.175

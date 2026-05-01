@@ -1,0 +1,188 @@
+{
+  "n_glaciers": 94463,
+  "n_features": 33,
+  "features": [
+    "zmean_m",
+    "slope_deg",
+    "area_km2",
+    "elev_range_m",
+    "log_area_km2",
+    "aspect_sin",
+    "aspect_cos",
+    "T_mean_C",
+    "P_mean_mm",
+    "T_JJA_C",
+    "P_JJA_mm",
+    "T_DJF_C",
+    "P_DJF_mm",
+    "T_MAM_C",
+    "P_MAM_mm",
+    "T_SON_C",
+    "P_SON_mm",
+    "T_trend_C_dec",
+    "T_JJA_trend_C_dec",
+    "P_trend_mm_dec",
+    "T_std_C",
+    "T_JJA_std_C",
+    "P_std_mm",
+    "T_JJA_max_C",
+    "T_DJF_min_C",
+    "T_JJA_lapse_C",
+    "T_ann_lapse_C",
+    "continentality",
+    "precip_winter_frac",
+    "P_snow_mm",
+    "cryo_balance",
+    "melt_index",
+    "P_trend_x_wfrac"
+  ],
+  "cv_type": "spatial_GroupKFold_by_subregion",
+  "cv_folds": 5,
+  "xgb_fold_r2": [
+    0.1462,
+    0.1613,
+    0.0802,
+    0.0057,
+    0.2229
+  ],
+  "xgb_fold_r2_mean": 0.1232,
+  "xgb_fold_r2_std": 0.0743,
+  "metrics": {
+    "ridge": {
+      "r2": 0.078,
+      "rmse": 0.3465,
+      "mae": 0.2549,
+      "bias": -0.0126
+    },
+    "random_forest": {
+      "r2": 0.187,
+      "rmse": 0.3254,
+      "mae": 0.2364,
+      "bias": -0.0154
+    },
+    "xgboost": {
+      "r2": 0.1684,
+      "rmse": 0.3291,
+      "mae": 0.2399,
+      "bias": -0.0182
+    }
+  },
+  "random_cv_r2": 0.4423,
+  "random_cv_rmse": 0.2695,
+  "spatial_leakage_factor": 2.63,
+  "xgb_by_subregion": {
+    "C_Himalaya": {
+      "r2": -0.0362,
+      "rmse": 0.3309,
+      "mae": 0.2546,
+      "bias": -0.1072
+    },
+    "C_Tian_Shan": {
+      "r2": -0.0264,
+      "rmse": 0.3959,
+      "mae": 0.2976,
+      "bias": -0.1213
+    },
+    "E_Himalaya": {
+      "r2": -0.0425,
+      "rmse": 0.492,
+      "mae": 0.366,
+      "bias": 0.0766
+    },
+    "E_Pamir": {
+      "r2": -0.2677,
+      "rmse": 0.242,
+      "mae": 0.1827,
+      "bias": -0.0383
+    },
+    "Hengduan_Shan_N": {
+      "r2": -0.0459,
+      "rmse": 0.4499,
+      "mae": 0.3376,
+      "bias": 0.0987
+    },
+    "Hindu_Kush": {
+      "r2": 0.0321,
+      "rmse": 0.2674,
+      "mae": 0.199,
+      "bias": -0.0018
+    },
+    "Inner_Tibet": {
+      "r2": 0.1809,
+      "rmse": 0.2647,
+      "mae": 0.204,
+      "bias": -0.0369
+    },
+    "Karakoram": {
+      "r2": -0.0719,
+      "rmse": 0.3,
+      "mae": 0.215,
+      "bias": -0.0729
+    },
+    "Kunlun": {
+      "r2": -0.0079,
+      "rmse": 0.215,
+      "mae": 0.1668,
+      "bias": -0.0764
+    },
+    "N_Tian_Shan": {
+      "r2": -0.248,
+      "rmse": 0.4722,
+      "mae": 0.3605,
+      "bias": 0.2083
+    },
+    "Pamir_Alay": {
+      "r2": 0.0048,
+      "rmse": 0.3729,
+      "mae": 0.2459,
+      "bias": -0.0265
+    },
+    "Qilian_Shan": {
+      "r2": -0.365,
+      "rmse": 0.2963,
+      "mae": 0.2367,
+      "bias": 0.1671
+    },
+    "W_Himalaya": {
+      "r2": 0.0667,
+      "rmse": 0.2575,
+      "mae": 0.195,
+      "bias": 0.0317
+    },
+    "W_Nepal": {
+      "r2": -0.0587,
+      "rmse": 0.3421,
+      "mae": 0.2651,
+      "bias": -0.1416
+    },
+    "W_Pamir": {
+      "r2": -0.1701,
+      "rmse": 0.2547,
+      "mae": 0.187,
+      "bias": -0.025
+    }
+  },
+  "shap_top10": {
+    "T_JJA_std_C": 0.07029903680086136,
+    "P_JJA_mm": 0.04595056176185608,
+    "slope_deg": 0.02765621989965439,
+    "zmean_m": 0.02660110592842102,
+    "precip_winter_frac": 0.020802287384867668,
+    "continentality": 0.02074543572962284,
+    "P_SON_mm": 0.02017316222190857,
+    "T_MAM_C": 0.01502982433885336,
+    "elev_range_m": 0.013505419716238976,
+    "area_km2": 0.012635776773095131
+  },
+  "shap_grouped": {
+    "Elevation": 0.06809864193201065,
+    "JJA_T_Variability": 0.089576855301857,
+    "JJA_Precipitation": 0.0575370229780674,
+    "Precip_Seasonality": 0.06581037491559982,
+    "Temperature_Trend": 0.018438689410686493,
+    "Continentality": 0.02074536308646202,
+    "Mean_Temperature": 0.04274542257189751,
+    "Precip_Mean": 0.01779990643262863,
+    "Glacier_Morphology": 0.06633179634809494
+  }
+}

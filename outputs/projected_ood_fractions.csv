@@ -1,0 +1,16 @@
+subregion,hist_ood_pct,proj_ood_pct_sigma0
+C_Himalaya,7.8,10.2
+C_Tian_Shan,2.0,7.8
+E_Himalaya,17.3,28.5
+E_Pamir,0.6,74.7
+Hengduan_Shan_N,4.4,12.9
+Hindu_Kush,0.9,43.1
+Inner_Tibet,1.1,52.7
+Karakoram,2.4,95.4
+Kunlun,0.0,83.4
+N_Tian_Shan,0.1,28.0
+Pamir_Alay,0.4,91.5
+Qilian_Shan,0.0,84.5
+W_Himalaya,0.2,52.1
+W_Nepal,3.9,9.9
+W_Pamir,0.5,98.9

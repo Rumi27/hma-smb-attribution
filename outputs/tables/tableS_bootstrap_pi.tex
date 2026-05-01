@@ -1,0 +1,35 @@
+\begin{table}[htbp]
+\centering
+\caption{Bootstrap 90\% prediction interval (PI) width and coverage by sub-region.
+PI bounds are the 5th--95th percentile of predictions from 30 bootstrap XGBoost models
+trained on bootstrap resamples of each CV fold's training data. Coverage = fraction of
+observed SMB values within the 90\% PI; ideal calibration would yield 90\%.
+The systematic under-coverage (mean 18.5\%) indicates that cross-regional extrapolation
+error is structural (systematic bias), not stochastic, and is not captured by resampling.}
+\label{tab:bootstrap_pi_sub}
+\small
+\begin{tabular}{lrrrr}
+\hline
+Sub-region & $n$ & Mean PI width & Median PI width & Coverage (\%) \\
+           &     & (m~w.e.~yr$^{-1}$) & (m~w.e.~yr$^{-1}$) & \\
+\hline
+Pamir-Alay       &    562 & 0.188 & 0.180 & 27.6 \\
+C. Himalaya      &  4,677 & 0.196 & 0.192 & 23.0 \\
+C. Tian Shan     & 10,386 & 0.187 & 0.171 & 20.2 \\
+Hindu Kush       &  4,583 & 0.120 & 0.109 & 20.3 \\
+Inner Tibet      & 12,906 & 0.121 & 0.116 & 19.3 \\
+W. Nepal         &  3,475 & 0.168 & 0.164 & 19.5 \\
+W. Pamir         &  9,087 & 0.105 & 0.093 & 19.3 \\
+Qilian Shan      &  2,727 & 0.124 & 0.115 & 18.5 \\
+N. Tian Shan     &  4,128 & 0.178 & 0.149 & 16.2 \\
+Hengduan Shan N. &  5,518 & 0.113 & 0.095 & 11.3 \\
+W. Himalaya      & 11,813 & 0.088 & 0.083 & 13.7 \\
+Karakoram        & 14,520 & 0.093 & 0.083 & 15.1 \\
+E. Pamir         &  3,854 & 0.080 & 0.072 & 14.8 \\
+E. Himalaya      &  4,602 & 0.161 & 0.151 & 14.8 \\
+Kunlun           &  1,625 & 0.114 & 0.113 & 22.3 \\
+\hline
+\textbf{HMA-wide} & \textbf{94,463} & \textbf{0.126} & \textbf{0.111} & \textbf{17.4} \\
+\hline
+\end{tabular}
+\end{table}

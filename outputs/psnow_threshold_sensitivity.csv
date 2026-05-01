@@ -1,0 +1,3 @@
+method,r2,rmse
+Calendar P_snow (baseline),0.1684,0.3291
+T-threshold P_snow (<2 degC),0.1643,0.3299

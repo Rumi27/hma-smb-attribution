@@ -1,0 +1,16 @@
+subregion,mean_pi_width,median_pi_width,coverage_90pct,n
+C_Himalaya,0.196,0.192,23.0,4677
+C_Tian_Shan,0.187,0.171,20.2,10386
+E_Himalaya,0.161,0.151,14.8,4602
+E_Pamir,0.08,0.072,14.8,3854
+Hengduan_Shan_N,0.113,0.095,11.3,5518
+Hindu_Kush,0.12,0.109,20.3,4583
+Inner_Tibet,0.121,0.116,19.3,12906
+Karakoram,0.093,0.083,15.1,14520
+Kunlun,0.114,0.113,22.3,1625
+N_Tian_Shan,0.178,0.149,16.2,4128
+Pamir_Alay,0.188,0.18,27.6,562
+Qilian_Shan,0.124,0.115,18.5,2727
+W_Himalaya,0.088,0.083,13.7,11813
+W_Nepal,0.168,0.164,19.5,3475
+W_Pamir,0.105,0.093,19.3,9087

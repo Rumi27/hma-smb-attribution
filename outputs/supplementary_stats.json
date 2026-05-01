@@ -1,0 +1,45 @@
+{
+  "size_stratified_cv": {
+    "large": {
+      "size_class": "large",
+      "n": 1217,
+      "r2": 0.2633,
+      "rmse": 0.2618,
+      "mae": 0.1994,
+      "area_threshold_km2": "\u226510"
+    },
+    "medium": {
+      "size_class": "medium",
+      "n": 14668,
+      "r2": 0.2005,
+      "rmse": 0.2987,
+      "mae": 0.2216,
+      "area_threshold_km2": "1\u201310"
+    },
+    "small": {
+      "size_class": "small",
+      "n": 78578,
+      "r2": 0.1619,
+      "rmse": 0.3353,
+      "mae": 0.244,
+      "area_threshold_km2": "<1"
+    }
+  },
+  "spearman_sigma_vs_smb": {
+    "rho": 0.386,
+    "pvalue": 0.0,
+    "n": 94463
+  },
+  "mean_min_gc_distance_km": {
+    "mean": 115.0,
+    "median": 94.4,
+    "n_glaciers": 94463
+  },
+  "hugonnet_comparison": {
+    "spearman_rho_oof_pred_vs_hugonnet": 0.839,
+    "spearman_rho_obs_vs_hugonnet": 0.993,
+    "n_subregions": 15,
+    "mean_abs_bias_shean_vs_hugonnet": 0.0165,
+    "n_within_004_mwea": 13
+  }
+}

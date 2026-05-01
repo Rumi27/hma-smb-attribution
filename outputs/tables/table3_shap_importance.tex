@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Top-15 features ranked by mean absolute SHAP value (m~w.e.~yr$^{-1}$) from the full-dataset XGBoost model ($n$=94,463 glaciers). Geographic coordinates (latitude, longitude) were excluded from the feature set to ensure attribution reflects climate--terrain mechanisms rather than spatial memorisation.}
+\label{tab:shap_importance}
+\begin{tabular}{clr}
+\hline
+Rank & Feature & Mean |SHAP| \\
+\hline
+1 & JJA temperature variability ($\sigma$, $^{\circ}$C) & 0.070 \\
+2 & JJA precipitation (mm month$^{-1}$) & 0.046 \\
+3 & Glacier slope ($^{\circ}$) & 0.028 \\
+4 & Mean glacier elevation (m a.s.l.) & 0.027 \\
+5 & Winter precipitation fraction & 0.021 \\
+6 & Continentality ($T_{\rm JJA} - T_{\rm DJF}$, $^{\circ}$C) & 0.021 \\
+7 & SON precipitation (mm month$^{-1}$) & 0.020 \\
+8 & MAM temperature ($^{\circ}$C) & 0.015 \\
+9 & Elevation range (m) & 0.014 \\
+10 & Glacier area (km$^2$) & 0.013 \\
+11 & JJA temperature, lapse-corrected ($^{\circ}$C) & 0.013 \\
+12 & JJA maximum temperature ($^{\circ}$C) & 0.012 \\
+13 & Precipitation variability ($\sigma$, mm month$^{-1}$) & 0.012 \\
+14 & Annual mean temperature, lapse-corrected ($^{\circ}$C) & 0.011 \\
+15 & JJA temperature trend ($^{\circ}$C decade$^{-1}$) & 0.011 \\
+\hline
+\end{tabular}
+\end{table}

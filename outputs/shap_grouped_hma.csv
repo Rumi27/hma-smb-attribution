@@ -1,0 +1,10 @@
+group,grouped_mean_abs_shap
+JJA_T_Variability,0.089576855301857
+Elevation,0.06809864193201065
+Glacier_Morphology,0.06633179634809494
+Precip_Seasonality,0.06581037491559982
+JJA_Precipitation,0.0575370229780674
+Mean_Temperature,0.04274542257189751
+Continentality,0.02074536308646202
+Temperature_Trend,0.018438689410686493
+Precip_Mean,0.01779990643262863

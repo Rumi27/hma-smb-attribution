@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Performance of candidate models under 5-fold spatial cross-validation (GroupKFold by sub-region, $n$=94,463 glaciers). CV R$^2$ and RMSE (m~w.e.~yr$^{-1}$) are glacier-count-weighted; area-weighted metrics (final two columns) use glacier area as weight and are reported for XGBoost only. Spatial fold R$^2$ reports the mean $\pm$ standard deviation across the five folds for XGBoost.}
+\label{tab:model_comparison}
+\begin{tabular}{lrrrrlrr}
+\hline
+Model & CV $R^2$ & RMSE & MAE & Bias & Spatial fold $R^2$ (mean $\pm$ $\sigma$) & Area-wtd $R^2$ & Area-wtd RMSE \\
+\hline
+Fold-mean baseline$^{a}$ & $-0.030$ & 0.366 & 0.275 & -- & -- & -- & -- \\
+Ridge regression & 0.078 & 0.346 & 0.255 & -0.013 & -- & -- & -- \\
+Random Forest & 0.187 & 0.325 & 0.236 & -0.015 & -- & -- & -- \\
+XGBoost (primary) & 0.168 & 0.329 & 0.240 & -0.018 & 0.123 $\pm$ 0.074 & 0.209 & 0.278 \\
+\hline
+\end{tabular}
+\begin{flushleft}
+\small $^{a}$Fold-mean baseline: in each CV fold, all test glaciers are predicted by the
+training-fold grand mean (no climate features used).  Because \texttt{GroupKFold} withholds
+entire sub-regions, within-sub-region training means are unavailable, so this baseline is
+equivalent to the global-mean predictor for each fold.
+\end{flushleft}
+\end{table}

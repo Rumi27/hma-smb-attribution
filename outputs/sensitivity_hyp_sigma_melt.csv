@@ -1,0 +1,6 @@
+experiment,r2,rmse,note
+Baseline,0.16841341078864114,0.32905973727366605,reference
++hypsometric_integral,0.18619379615627263,0.3255228703140645,HI=(zmean-zmin)/(zmax-zmin)
+sigma_smb_weighted,0.19429659848522907,0.32389825385257964,sample_weight=1/SMB_sigma²
+melt_index_no_sqrt_area,0.1673106078438158,0.32927785515899494,melt_index replaced by T_JJA_lapse_C (drop √A scaling)
+no_melt_index,0.1760315275260892,0.32754902078804926,melt_index removed from feature set
